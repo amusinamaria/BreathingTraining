@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <!--для поля ввода названия-->
+        <item name="colorControlNormal">@color/myWhite</item>
+        <item name="colorControlActivated">@color/myWhite</item>
+        <item name="colorControlHighlight">@color/myWhite</item>
+        <!--чтобы не мелькал белый экран при запуске-->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--ripple LightBack-->
+    <style name="SelectableItemThemeLightBack">
+        <item name="colorControlHighlight">@color/myLightBackRipple</item>
+    </style>
+    <style name="SelectableItemBackgroundLightBack">
+        <item name="android:theme">@style/SelectableItemThemeLightBack</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <!--ripple DarkBack-->
+    <style name="SelectableItemThemeDarkBack">
+        <item name="colorControlHighlight">@color/myDarkBackRipple</item>
+    </style>
+    <style name="SelectableItemBackgroundDarkBack">
+        <item name="android:theme">@style/SelectableItemThemeDarkBack</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <!--ripple Pink-->
+    <style name="SelectableItemThemePink">
+        <item name="colorControlHighlight">@color/myPinkRipple</item>
+    </style>
+    <style name="SelectableItemBackgroundPink">
+        <item name="android:theme">@style/SelectableItemThemePink</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>

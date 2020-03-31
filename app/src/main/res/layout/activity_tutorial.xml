@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@color/myDarkBack"
+            android:layout_height="match_parent"
+            tools:context="mary.breathingtraining.view.activities.MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myPink"
+                android:text="@string/vdoh"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:gravity="start"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/myWhite"
+                android:text="@string/rezkiy"/>
+
+        <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20dp"
+                android:gravity="start"
+                android:textColor="@color/myPink"
+                android:text="@string/vidoh"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/tihiy"/>
+
+        <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myPink"
+                android:text="@string/dvizheniya"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/delatodnovremenno"/>
+
+        <!--Упражнения-->
+        <LinearLayout
+                android:layout_marginTop="45dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/myLightBack">
+
+            <TextView
+                    android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/prostovdohi"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/prostovdohi_inv"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/tut_prostovdohi"
+                    android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+        </LinearLayout>
+        <TextView
+                android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/ladoshki"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ladoshki"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/myWhite"
+                android:text="@string/tut_ladoshki"
+                android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+        <LinearLayout
+                android:layout_marginTop="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/myLightBack">
+
+            <TextView
+                    android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/pogonchiki"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/pogonchiki_inv"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/tut_pogonchiki"
+                    android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+        </LinearLayout>
+
+        <TextView
+                android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/nasos"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/nasos"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/myWhite"
+                android:text="@string/tut_nasos"
+                android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+
+        <LinearLayout
+                android:layout_marginTop="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/myLightBack">
+
+            <TextView
+                    android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/koshka"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/koshka_inv"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/tut_koshka"
+                    android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+        </LinearLayout>
+
+
+        <TextView
+                android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/obnimi"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/obnimi"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/myWhite"
+                android:text="@string/tut_obnimi"
+                android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+        <LinearLayout
+                android:layout_marginTop="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/myLightBack">
+
+            <TextView
+                    android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/mayatnik"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/mayatnik_inv"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/tut_mayatnik"
+                    android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/povorotigolovi"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/povorotigolovi"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/myWhite"
+                android:text="@string/tut_povorotigolovi"
+                android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+        <LinearLayout
+                android:layout_marginTop="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/myLightBack">
+
+            <TextView
+                    android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/ushki"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ushki_inv"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/tut_ushki"
+                    android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/mayatnikgolovoy"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/mayatnikgolovoy"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/myWhite"
+                android:text="@string/tut_mayatnikgolovoy"
+                android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+        <LinearLayout
+                android:layout_marginTop="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/myLightBack">
+
+            <TextView
+                    android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/perekaty"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/perekaty_inv"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/tut_perekaty"
+                    android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:textColor="@color/myWhite"
+                android:text="@string/shagi"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/tutorial_image_margin_top"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shagi"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/myWhite"
+                android:text="@string/tut_shagi"
+                android:paddingBottom="@dimen/tutorial_text_padding_bottom"/>
+
+        <LinearLayout
+                android:layout_marginTop="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/myLightBack">
+
+            <TextView
+                    android:layout_marginTop="@dimen/tutorial_title_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:textColor="@color/myPink"
+                    android:text="@string/tut_attention"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="start"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/myWhite"
+                    android:text="@string/tut_attention_text"
+                    android:paddingBottom="30dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="@color/myDarkBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/viberite_dvizheniya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:id="@+id/chooseEx"
+            android:textColor="@color/myPink"
+            android:textSize="24dp"/>
+
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/exercisesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/chooseEx"
+            android:layout_above="@+id/confirmEx"
+            android:layout_marginTop="28dp"/>
+
+    <LinearLayout
+            android:id="@+id/confirmEx"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/myPink"
+            android:layout_alignParentBottom="true">
+
+        <TextView
+                style="@style/SelectableItemBackgroundPink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ОК"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClickConfirmExercises"
+                android:gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

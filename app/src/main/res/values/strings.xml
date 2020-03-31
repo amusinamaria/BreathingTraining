@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Стрельникова</string>
+    <string name="title_activity_timer">TimerActivity</string>
+
+
+<!--Main-->
+    <string name="gimnastika">Гимнастика</string>
+    <string name="strelnikovoy">Стрельниковой</string>
+    <string name="start">Начать</string>
+    <string name="tutorial">Инструкция</string>
+
+
+<!--Programs-->
+    <string name="legkaya">Легкая</string>
+    <string name="srednyaya">Средняя</string>
+    <string name="slognaya">Сложная</string>
+    <string name="viberite_pro">Выберите программу</string>
+    <string name="sozdat">+ Создать</string>
+
+<!--Exercises-->
+    <string name="prostovdohi">Просто вдохи</string>
+    <string name="ladoshki">Ладошки</string>
+    <string name="pogonchiki">Погончики</string>
+    <string name="nasos">Насос</string>
+    <string name="koshka">Кошка</string>
+    <string name="obnimi">Обними плечи</string>
+    <string name="mayatnik">Большой маятник</string>
+    <string name="povorotigolovi">Повороты головы</string>
+    <string name="ushki">Ушки</string>
+    <string name="mayatnikgolovoy">Маятник головой</string>
+    <string name="perekaty">Перекаты</string>
+    <string name="shagi">Шаги</string>
+
+<!--tutorial-->
+    <string name="vdoh">Вдох носом</string>
+    <string name="rezkiy">Резкий, шумный, короткий.</string>
+    <string name="vidoh">Выдох ртом</string>
+    <string name="tihiy">Тихий и бесшумный. Не выталкивать.</string>
+    <string name="dvizheniya">Движения</string>
+    <string name="delatodnovremenno">Делать одновременно с вдохом.</string>
+    <string name="tut_prostovdohi">Встаньте прямо. Дополнительных движений нет, просто следите за дыханием. Лицо и шея не должны быть слишком напряжены. Плечи расслаблены, спина прямая.</string>
+    <string name="tut_ladoshki">Встаньте прямо, руки согните в локтях. Ладошки вперед, локти вниз. В момент вдоха - сжимайте кулаки, хватайте воздух. На выдохе - разжимайте.</string>
+    <string name="tut_pogonchiki">Встаньте прямо, прижмите сжатые кулаки спереди к поясу. На вдохе толкните кулаки вниз, выпрямите руки. Плечи напрягать не нужно. На выдохе вернитесь в исходное положение.</string>
+    <string name="tut_nasos">Встаньте прямо, ноги чуть уже плеч, руки вдоль тела. На вдохе сделайте наклон, тянитесь руками к полу. Вдох должен закончиться одновременно с наклоном. На выдохе чуть приподнимитесь и снова повторяйте наклон с вдохом. Спина округлая, не нужно наклоняться слишком низко.</string>
+    <string name="tut_koshka">Встаньте прямо, руки спереди на поясе, ладонями вниз. На вдохе сделайте небольшое пружинистое приседание, одновременно с ним повернитесь влево и сделайте хватательное движение. Стопы от пола отрывать не нужно. На выдохе вернитесь в исходное положение и сразу же сделайте поворот с вдохом на другую сторону.</string>
+    <string name="tut_obnimi">Встаньте прямо, руки на плечах. Вместе с вдохом скрестите руки, обнимите себя за плечи. Можно чуть отвести голову назад. На выдохе слегка разведите руки, держите их параллельно друг другу.</string>
+    <string name="tut_mayatnik">Встаньте прямо, ноги чуть уже плеч. На вдохе наклонитесь вперед, тянитесь руками к полу. На выдохе выпрямитесь и без перерыва вместе со следующим вдохом прогните поясницу, наклонитесь назад и обнимите себя за плечи. На выдохе вернитесь в исходное и на вдохе снова наклонитесь вперед.</string>
+    <string name="tut_povorotigolovi">Встаньте прямо, ноги чуть уже плеч. На вдохе поверните голову влево. На выдохе возвращайтесь в исходное и, не останавливаясь посередине, делайте вдох и поворот головы в другую сторону. Шею тянуть не нужно.</string>
+    <string name="tut_ushki">Встаньте прямо. На вдохе сделайте наклон головы к левому плечу. Взгляд вперед. На выдохе вернитесь в исходное положение. Вдох - наклон в другую сторону.</string>
+    <string name="tut_mayatnikgolovoy">Встаньте прямо. Опустите голову, взгляд в пол, сделайте вдох. На выдохе в исходное. Слегка запрокиньте голову, взгляд вверх - вдох. На выдохе в исходное. Движется только голова.</string>
+    <string name="tut_perekaty">Левая нога впереди, правая сзади. Вес на левой. На вдохе сделайте пружинистое приседание на левой ноге, на выдохе выпрямитесь. На вдохе перенесите вес на правую ногу, на выдохе - вернитесь в исходное положение. Когда сделаете половину от запланированного количества повторений - поменяйте ногу.</string>
+    <string name="tut_shagi">Поднимите согнутую левую ногу, вытяните носок. На вдохе сделайте пружинистое приседание на правой. На выдохе вернитесь в исходное и сразу же сделайте упражнение на другую ногу вместе с вдохом.</string>
+    <string name="tut_attention">Внимание!</string>
+    <string name="tut_attention_text">У некоторых упражнений есть противопоказания. Проконсультируйтесь с врачом и составьте для себя безопасную программу.</string>
+
+<!--Timer-->
+    <string name="rest">Отдых</string>
+    <string name="vivipolnili">Вы выполнили</string>
+    <string name="vse_uprazhneniya">все упражнения</string>
+    <string name="finish">Завершить</string>
+
+<!--Create program-->
+    <string name="viberite_dvizheniya">Выберите движения</string>
+    <string name="temp">Темп</string>
+    <string name="medl">Медленный</string>
+    <string name="sred">Средний</string>
+    <string name="bistr">Быстрый</string>
+    <string name="kolichestvo">Количество вдохов для каждого движения</string>
+    <string name="blocks">3 блока по</string>
+    <string name="sniffs8">8 вдохов</string>
+    <string name="sniffs16">16 вдохов</string>
+    <string name="sniffs32">32 вдоха</string>
+    <string name="title">Название программы</string>
+    <string name="save">Сохранить</string>
+    <string name="program_in_list">Программа появится в списке</string>
+
+
+</resources>

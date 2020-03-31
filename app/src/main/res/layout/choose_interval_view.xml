@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/myDarkBack"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:text="@string/temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/myPink"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"/>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/myLightBack">
+
+        <TextView
+                style="@style/SelectableItemBackgroundLightBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/medl"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClickMedlenniy"
+                android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/myLightBack">
+
+        <TextView
+                style="@style/SelectableItemBackgroundLightBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sred"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClickSredniy"
+                android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/myLightBack">
+
+        <TextView
+                style="@style/SelectableItemBackgroundLightBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bistr"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClickBistriy"
+                android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

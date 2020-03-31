@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/myDarkBack"
+        tools:context="mary.breathingtraining.view.activities.ProgramsActivity"
+        android:orientation="vertical">
+
+    <TextView
+            android:text="@string/viberite_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/choose_program_textview"
+            android:gravity="center_horizontal"
+            android:textColor="@color/myWhite"/>
+
+
+    <LinearLayout
+            android:id="@+id/create"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/myLightBack">
+
+        <TextView
+                style="@style/SelectableItemBackgroundLightBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sozdat"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClickCreateProgram"
+                android:gravity="start|center_vertical"
+                android:paddingStart="20dp"/>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/programsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+</LinearLayout>

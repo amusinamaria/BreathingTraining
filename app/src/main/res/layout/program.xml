@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="@color/myDarkBack"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:id="@+id/container">
+
+    <TextView
+            style="@style/SelectableItemBackgroundDarkBack"
+            tools:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:id="@+id/programTitle"
+            android:gravity="center_vertical"
+            android:textColor="@color/myWhite"
+            android:paddingStart="20dp"
+            android:layout_weight="1"/>
+
+    <ImageView
+            android:id="@+id/trashIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/myLightBack"
+            android:paddingEnd="15dp"
+            android:paddingStart="8dp"
+            android:src="@drawable/ic_delete"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+</LinearLayout>

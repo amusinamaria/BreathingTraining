@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="mary.breathingtraining.view.activities.CreateProgramActivity">
+    <RelativeLayout
+            android:id="@+id/choose_views_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <include android:id="@+id/choose_exercises"
+                 layout="@layout/choose_exercises_view"/>
+
+        <include android:id="@+id/choose_sniffs_count"
+                 layout="@layout/choose_sniffs_count_view"/>
+
+        <include android:id="@+id/choose_interval"
+                 layout="@layout/choose_interval_view"/>
+
+        <include android:id="@+id/choose_title"
+                 layout="@layout/choose_title_view"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

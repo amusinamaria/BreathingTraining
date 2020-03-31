@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/myDarkBack"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/kolichestvo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/myPink"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"/>
+
+    <TextView
+            android:text="@string/blocks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/myWhite"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/myLightBack">
+
+        <TextView
+                style="@style/SelectableItemBackgroundLightBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sniffs8"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClick8"
+                android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/myLightBack">
+
+        <TextView
+                style="@style/SelectableItemBackgroundLightBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sniffs16"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClick16"
+                android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/myLightBack">
+
+        <TextView
+                style="@style/SelectableItemBackgroundLightBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sniffs32"
+                android:textColor="@color/myWhite"
+                android:textSize="16dp"
+                android:onClick="onClick32"
+                android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

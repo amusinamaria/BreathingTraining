@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a506c</color>
+    <color name="colorPrimaryDark">#37394f</color>
+    <color name="colorAccent">#dd5767</color>
+
+    <color name="myLightBack">#4a506c</color>
+    <color name="myDarkBack">#37394f</color>
+
+    <color name="myWhite">#fefef8</color>
+
+    <color name="myYellowGreen">#b2ba47</color>
+    <color name="myPink">#dd5767</color>
+
+    <color name="myOrange">#f89b52</color>
+    <color name="myBlue">#408ddd</color>
+
+    <color name="myLightBackRipple">#37394f</color>
+    <color name="myDarkBackRipple">#4a506c</color>
+    <color name="myPinkRipple">#af3543</color>
+
+</resources>

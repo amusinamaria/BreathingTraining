@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_bigger_margin">50dp</dimen>
+
+    <!--tutorial-->
+    <dimen name="tutorial_image_margin_top">18dp</dimen>
+    <dimen name="tutorial_text_padding_bottom">15dp</dimen>
+    <dimen name="tutorial_title_margin_top">30dp</dimen>
+</resources>
